@@ -21,3 +21,17 @@ h3 {
 .sub {
     margin: 0 10px;
 }
+nav ul {
+    display: flex;
+    padding: 0 5px ;
+}
+nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+nav li:hover {
+    background-color: blue;
+}
+nav li a {
+    text-decoration: none;
+}
