@@ -21,10 +21,6 @@ h3 {
 .sub {
     margin: 0 10px;
 }
-nav ul {
-    display: flex;
-    padding: 0 5px ;
-}
 nav ul li {
     list-style: none;
     padding: 10px;
@@ -34,4 +30,18 @@ nav li:hover {
 }
 nav li a {
     text-decoration: none;
+}
+nav > ul {
+    display: flex;
+    padding: 0 05px;
+}
+nav li .dropdown {
+    display: none;
+}
+nav li:hover .dropdown{
+    display: block;
+    padding: 0 05px;
+    position: absolute;
+    background-color: blueviolet;
+    margin: 05px;
 }
